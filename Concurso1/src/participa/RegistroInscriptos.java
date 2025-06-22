@@ -1,5 +1,4 @@
 package participa;
-
 import java.time.LocalDate;
 
 public interface RegistroInscriptos {

@@ -24,7 +24,7 @@ class ConcursoTest {
         archivoInscripto = new ArchivoInscripto(rutaArchivo);  
         servicioMensajeriaFake = new FakeMailTest();
         inscriptosFake = new InscriptosFake("");
-        concurso = new Concurso("Concurso de Programación", inicio, fin, inscriptosFake,servicioMensajeriaFake);
+        concurso = new ConcursoBase("Concurso de Programación", inicio, fin, inscriptosFake, servicioMensajeriaFake);
         participante = new Participante("Gabriel Avendaño","gabriel@gmail.com");
  
     }
